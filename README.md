@@ -23,6 +23,6 @@ pip install .
 Run the tool with the command:
 
 ```bash
-metimputbert --input example.csv --model 168
+metimputbert --input example.csv --model 249
 ```
 The imputed output is saved as example_imputed.csv.
