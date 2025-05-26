@@ -4,8 +4,8 @@ setup(
     name="MetImputBERT",
     version="0.1.0",
     description="Transformer-based imputation tool for metabolomics data",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Shizheng Qiu",
+    author_email="qiushizheng@hit.edu.cn",
     packages=find_packages(),
     install_requires=[
         "torch",
