@@ -25,9 +25,10 @@ cd MetImputBERT
 pip install .
 ```
 ## Usage
-Run the tool with the command:
+The default batch size is set to 36, which is suitable for the RTX2080Ti with 11GB. If you have a GPU with higher memory, such as the A100 (40GB), you can set the batch size in imputer.py to 128. Run the tool with the command:
 
 ```bash
 metimputbert --input example.csv --model 249
+metimputbert --input example2.csv --model 168
 ```
 The imputed output is saved as example_imputed.csv.
