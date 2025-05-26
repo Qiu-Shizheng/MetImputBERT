@@ -450,7 +450,7 @@ class Imputer:
         self.model.eval()
         logger.info(f"Loaded pretrained model from {self.weight_path} on {self.device}")
 
-    def impute(self, input_csv, batch_size=96):
+    def impute(self, input_csv, batch_size=36):
         logger.info(f"Loading data from {input_csv}")
         df = pd.read_csv(input_csv)
         if df.shape[1] != self.num_metabolites + 1:
