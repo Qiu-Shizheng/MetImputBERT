@@ -10,8 +10,13 @@ MetImputBERT is a Linux tool for imputing missing values in NMR metabolomics dat
 - Automatically computes per-column normalization parameters from the input data.
 - Performs imputation and then rescales the output back to the original scale.
 
-## Installation
+## System requirements
+torch 2.4.1+cu124  
+python 3.11.9  
+pytorch-cuda 12.4    
+numpy 1.26.4
 
+## Installation
 Clone the repository and install:
 
 ```bash
