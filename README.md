@@ -1,6 +1,6 @@
 # MetImputBERT
 
-MetImputBERT is a Linux tool for imputing missing values in NMR metabolomics data using a pretrained transformer-based model.
+MetImputBERT is a python tool for imputing missing values in NMR metabolomics data using a pretrained transformer-based model.
 
 ## Features
 
