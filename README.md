@@ -30,5 +30,16 @@ For the 168 model, the default batch size is set to 36, which is suitable for th
 ```bash
 metimputbert --input example.csv --model 249
 metimputbert --input example2.csv --model 168
+
+[INFO] Input file: /home/user/MetImputBERT/example2.csv
+[INFO] Selected model type: 168
+[INFO] Using local weight file: /home/user/MetImputBERT/metimputbert/weights/168_model.pt
+[INFO] Loaded pretrained model from /home/user/metimputbert/weights/168_model.pt on cuda
+[INFO] Loading data from /home/user/MetImputBERT/example2.csv
+[INFO] Normalizing data
+[INFO] Performing imputation
+[INFO] De-normalizing data
+[INFO] Imputation complete
+[INFO] Imputation completed and saved as /home/user/MetImputBERT/example2_imputed.csv
 ```
 The imputed output is saved as example_imputed.csv.
