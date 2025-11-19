@@ -39,13 +39,6 @@ For the 168 model, the default batch size is set to 36.
 |512	| 10000	| 3.10 	| 3,722 |
 
 
-
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
-
-
 ```bash
 metimputbert --input example.csv --model 249
 metimputbert --input example2.csv --model 168
