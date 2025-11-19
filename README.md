@@ -30,14 +30,14 @@ The weight of pre-training model is also provided at Figshare: https://figshare.
 For the 168 model, the default batch size is set to 36.
 
 
-“`html
-Batch Size	Missing Count	Runtime (s)	Max Memory (MB)
-32	10000	3.86 	851 
-64	10000	3.53 	1,043 
-96	10000	3.44 	1,235 
-256	10000	3.22 	2,191 
-512	10000	3.10 	3,722 
-
+“`
+| Batch Size | 	Missing Count	| Runtime (s)	| Max Memory (MB) |
+| —— | —— |—— |—— |
+|32	| 10000	| 3.86 | 851 
+|64	| 10000	| 3.53	| 1,043 
+|96	| 10000	| 3.44 | 1,235 
+|256	| 10000	| 3.22 	| 2,191 
+|512	| 10000	| 3.10 	| 3,722 
 
 “`
 
