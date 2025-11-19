@@ -27,7 +27,19 @@ pip install .
 The weight of pre-training model is also provided at Figshare: https://figshare.com/s/bfb68f0387a5b430eacd
 
 ## Usage
-For the 168 model, the default batch size is set to 36, which is suitable for the RTX2080Ti with 11GB. If you have a GPU with higher memory, such as the A100 (40GB), you can set the batch size in imputer.py to 192. Run the tool with the command:
+For the 168 model, the default batch size is set to 36.
+
+
+“`html
+Batch Size	Missing Count	Runtime (s)	Max Memory (MB)
+32	10000	3.86 	851 
+64	10000	3.53 	1,043 
+96	10000	3.44 	1,235 
+256	10000	3.22 	2,191 
+512	10000	3.10 	3,722 
+
+
+“`
 
 ```bash
 metimputbert --input example.csv --model 249
