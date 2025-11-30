@@ -24,7 +24,7 @@ git clone https://github.com/Qiu-Shizheng/MetImputBERT.git
 cd MetImputBERT
 pip install .
 ```
-The weight of pre-training model is also provided at Figshare: https://figshare.com/s/bfb68f0387a5b430eacd
+The weight of pre-training model is also provided at Figshare: 10.6084/m9.figshare.30744218
 
 ## Usage
 For the 168 model, the default batch size is set to 36.
