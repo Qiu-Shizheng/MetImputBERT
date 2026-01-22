@@ -140,9 +140,7 @@ class CustomBertModel(nn.Module):
 
 
 class MetaboliteBERTModel(nn.Module):
-    """
-    推理用模型：输入 z-space expressions + observed_mask，输出 z_pred
-    """
+    
     def __init__(
         self,
         num_metabolites: int = 249,
