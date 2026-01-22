@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "metimputbert"
+version = "0.2.0"
+description = "MetImputBERT: metabolomics missing value imputation with a BERT-style model."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Shizheng Qiu" }]
+
+dependencies = [
+  "numpy>=1.22",
+  "pandas>=1.5",
+  "torch>=2.0",
+  "transformers>=4.35",
+]
+
+[project.scripts]
+metimputbert = "metimputbert.cli:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+metimputbert = [
+  "weights/*.pt",
+  "assets/249/*.npz",
+  "assets/249/*.json",
+]

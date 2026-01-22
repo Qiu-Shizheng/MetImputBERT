@@ -1,3 +1,4 @@
-print("MetImputBERT has been loaded!")
+__all__ = ["MetImputBERTImputer", "__version__"]
+__version__ = "0.2.0"
 
-from .imputer import Imputer
+from .imputer import MetImputBERTImputer
