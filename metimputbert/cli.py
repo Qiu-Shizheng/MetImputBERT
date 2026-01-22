@@ -83,10 +83,10 @@ def main():
         return_mask_stats=True,
     )
 
-    # 写出
+
     write_table(out_df, out, sep=args.sep)
 
-    # 在 stdout 打印统计
+
     print(f"Saved imputed file to: {out}")
     print(f"Missing count imputed: {stats['missing_count']}")
     print(f"Missing ratio: {stats['missing_ratio']:.6f}")
