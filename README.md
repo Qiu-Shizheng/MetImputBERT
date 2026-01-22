@@ -27,7 +27,7 @@ git clone https://github.com/Qiu-Shizheng/MetImputBERT.git
 cd MetImputBERT
 pip install -e .    
 ```
-If you are unable to obtain the model weights from GitHub, you can also download them via figshare:10.6084/m9.figshare.30744218
+If you are unable to obtain the model weights from GitHub, you can also download them via figshare:https://doi.org/10.6084/m9.figshare.30744218
         
         
         
