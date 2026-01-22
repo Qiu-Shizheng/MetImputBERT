@@ -47,10 +47,7 @@ class ZScoreScaler:
 
 
 class MetImputBERTImputer:
-    """
-    推理端：对 249 代谢物表格进行缺失插补（只填缺失位）。
-    输入为原始空间（未标准化），内部用训练 scaler 标准化，模型预测后反标准化。
-    """
+
 
     def __init__(
         self,
@@ -61,7 +58,7 @@ class MetImputBERTImputer:
     ):
         self.cfg = config or ImputerConfig()
 
-        # 资源路径：若用户未指定，则使用包内默认
+        
         self._default_assets = get_default_assets_249()
         self.weights_path = weights_path
         self.scaler_path = scaler_path
