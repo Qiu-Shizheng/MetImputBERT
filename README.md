@@ -27,16 +27,7 @@ pip install -e .
 ```
 If you are unable to obtain the model weights from GitHub, you can also download them via figshare:https://doi.org/10.6084/m9.figshare.30744218
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+   
         
 
 ## Features
@@ -44,21 +35,8 @@ If you are unable to obtain the model weights from GitHub, you can also download
 - Output: full table with missing values imputed.
 - Non-missing values remain unchanged.
 
-  
         
         
-
-## Usage
-
-
-| Batch Size | 	Missing Count	| Runtime (s)	| Max Memory (MB) |
-| --- | --- | --- | --- |
-|32	| 10000	| 3.86 | 851 |
-|64	| 10000	| 3.53	| 1,043 |
-|96	| 10000	| 3.44 | 1,235 |
-|256	| 10000	| 3.22 	| 2,191 |
-|512	| 10000	| 3.10 	| 3,722 |
-
 
 ```bash
 metimputbert \
