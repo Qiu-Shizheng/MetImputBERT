@@ -27,6 +27,10 @@ pip install -e .
 ```
 If you are unable to obtain the model weights from GitHub, you can also download them via figshare:https://doi.org/10.6084/m9.figshare.30744218
         
+        
+        
+        
+        
    
         
 
@@ -43,7 +47,8 @@ metimputbert \
   -i input.csv \
   -o output_imputed.csv \
   --eid_col eid \
-  --batch_size 64
+  --batch_size 64 \
+  --clip_nonneg
 ```
 The imputed output is saved as output_imputed.csv.
 ```bash
