@@ -8,8 +8,7 @@ MetImputBERT is a python tool for imputing missing values in NMR metabolomics da
 ## Features
 
 - 249 model: Expects a CSV file with 250 columns (first column is "eid", next 168 columns are metabolite features, and remaining 81 columns are ratios).
-- Automatically computes per-column normalization parameters from the input data.
-- Performs imputation and then rescales the output back to the original scale.
+
 
 ## System requirements
 torch 2.4.1+cu124  
@@ -27,15 +26,14 @@ pip install -e .
 ```
 If you are unable to obtain the model weights from GitHub, you can also download them via figshare:https://doi.org/10.6084/m9.figshare.30744218
         
-        
-        
+     
         
         
    
         
 
 ## Features
-- Input: raw (not standardized) metabolite table with missing values.
+- Input: raw metabolite table with missing values.
 - Output: full table with missing values imputed.
 - Non-missing values remain unchanged.
 
@@ -47,7 +45,7 @@ metimputbert \
   -i input.csv \
   -o output_imputed.csv \
   --eid_col eid \
-  --batch_size 64 \
+  --batch_size 16 \
   --clip_nonneg
 ```
 The imputed output is saved as output_imputed.csv.
